@@ -1,14 +1,15 @@
 ﻿using System;
+using FizzBuzz.Interfaces;
+using FizzBuzz.Services;
 using Xunit; 
 
 namespace FizzBuzzApi.Tests
-{
+{ 
     public class FizzBuzzServiceTest
     {
         IFizzBuzzService fizzBuzzService = new FizzBuzzService();
         int input = 0;
         string output = "";
-
 
         [Fact]
         public void NumberSixReturnsFizz()

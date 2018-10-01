@@ -1,4 +1,4 @@
-﻿namespace FizzBuzzApi.Tests
+﻿namespace FizzBuzz.Interfaces
 {
     public interface IFizzBuzzService
     {

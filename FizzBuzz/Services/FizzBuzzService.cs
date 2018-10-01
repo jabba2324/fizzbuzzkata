@@ -1,6 +1,7 @@
 ﻿using System;
+using FizzBuzz.Interfaces;
 
-namespace FizzBuzzApi.Tests
+namespace FizzBuzz.Services
 {
     public class FizzBuzzService : IFizzBuzzService
     {
