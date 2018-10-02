@@ -1,4 +1,5 @@
 ﻿using System;
+using FizzBuzz.Extensions;
 using FizzBuzz.Interfaces;
 
 namespace FizzBuzz.Services
@@ -7,18 +8,17 @@ namespace FizzBuzz.Services
     {
         public string PlayTurn(int input)
         {
-            if (((input % 3) == 0) && ((input % 5) == 0))
+            if (input.IsMultipleOf(3) && input.IsMultipleOf(5))
             {
                 return "FizzBuzz";
-            }else if((input % 3) == 0)
+            } 
+            
+            if(input.IsMultipleOf(3))
             {
                 return "Fizz";
             }
-            else if((input % 5) == 0) {
-                return "Buzz";
-            }else{
-                return input.ToString();
-            }
+             
+            return input.IsMultipleOf(5) ? "Buzz" : input.ToString();
         }
     }
 }
