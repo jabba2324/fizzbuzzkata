@@ -29,3 +29,9 @@ To run tests:
 dotnet watch test
 ``` 
 in ```\FizzBuzzTests```
+
+TODO:
+
+Dockerize
+Deploy to Azure with AKS & ACR
+Logging
