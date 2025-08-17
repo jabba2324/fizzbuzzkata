@@ -1,5 +1,5 @@
 # Fizz Buzz API Kata
-This is Chris' API for FizzBuzz, it has a single GET endpoint at /api/FizzBuzz/{number} this project demonstrates use of dependency injection, swagger and TDD in .NET 8 with ASP.NET Core
+This is a C# API for FizzBuzz, it has a single GET endpoint at /api/FizzBuzz/{number} this project demonstrates use of dependency injection, swagger and TDD in .NET 8 with ASP.NET Core
 
 More on FizzBuzz [here](http://wiki.c2.com/?FizzBuzzTest).
 
