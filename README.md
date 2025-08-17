@@ -1,5 +1,5 @@
 # Fizz Buzz API Kata
-This is Chris' API for FizzBuzz, it has a single GET endpoint at /api/FizzBuzz/{number} this project demonstrates use of dependency injection, swagger and TDD in .NET Core 2.1 with ASP.NET Core 2.1.1
+This is Chris' API for FizzBuzz, it has a single GET endpoint at /api/FizzBuzz/{number} this project demonstrates use of dependency injection, swagger and TDD in .NET 8 with ASP.NET Core
 
 More on FizzBuzz [here](http://wiki.c2.com/?FizzBuzzTest).
 
@@ -19,7 +19,7 @@ dotnet run
 ```
 in ```\FizzBuzz```
 
-By default the root directory should load a nice swagger doc detailing the endpoint for FIzzBuzz, the default server configuration will listen to http://localhost:5000 
+By default the root directory should load a nice swagger doc detailing the endpoint for FIzzBuzz, the default server configuration will listen to http://localhost:5000 (HTTP) and https://localhost:5001 (HTTPS) 
 
 ## Testing
 
