@@ -1,6 +1,6 @@
 ﻿using System;
 using FizzBuzz.Services;
-using FizzBuzzApi.Controllers;
+using FizzBuzz.Controllers;
 using Xunit;
 
 namespace FizzBuzzTests.Tests
@@ -9,7 +9,7 @@ namespace FizzBuzzTests.Tests
     {
         FizzBuzzController fizzBuzzController = new FizzBuzzController(new FizzBuzzService());
         int input;
-        string response;
+        string response = string.Empty;
 
         [Fact]
         public void IntegerReturnsIntergerResponse()

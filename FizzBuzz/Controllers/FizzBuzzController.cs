@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web.Http;
+
 using FizzBuzz.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FizzBuzzApi.Controllers
+namespace FizzBuzz.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
